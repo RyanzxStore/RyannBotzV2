@@ -26,7 +26,7 @@ const message = {
                 {
                     urlButton: {
                         displayText: 'Ke IG GW',
-                        url: 'https://Instragram.com/l4c1f2r',
+                        url: 'https://Instragram.com/ryannzx_store',
                     }
                 },
             ]
@@ -34,13 +34,13 @@ const message = {
         conn.sendMessage(m.chat, message)
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/ALQiRR1nzLI',
+                        sourceUrl: 'https://www.youtube.com/@ryanstore',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ PutraModz ×፝֟͜×`,
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ by ᴹᴿ᭄ PutraModz ×፝֟͜×`,          previewType: 0,
+                        description: `WhatsApp`,
+                        title: `💌 : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: ` ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtu.be/ALQiRR1nzLI'
+                        mediaUrl: 'https://www.youtube.com/@ryanstore'
                         
                       }}
 })

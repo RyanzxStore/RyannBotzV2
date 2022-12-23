@@ -12,9 +12,9 @@ let handler  = async (m, { conn }) => {
 let msg = await generateWAMessageFromContent(m.chat, { locationMessage: {
   degreesLatitude: 0,
   degreesLongitude: 0,
-  name: '𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘',
+  name: 'ᴄʟɪᴄᴋ ʜᴇʀᴇ',
   address: 'Lihat Rules Bot',
-  url: 'https://fangzbot.websites.co.in/update/persyaratan/1238529',
+  url: 'https://lynk.id/ryan_store',
   isLive: true,
   accuracyInMeters: 0,
   speedInMps: 0,

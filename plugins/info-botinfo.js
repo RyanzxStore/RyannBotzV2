@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), './media/botinfo.jpg', 'https://chat.whatsapp.com/IFjWiJjVM0dHBEK6j05GEF', '🎀GRUP', null, null, [
+`.trim(), './media/botinfo.jpg', 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq', 'ɢʀᴜᴘ ʙᴏᴛ', null, null, [
 [`👑ᴏᴡɴᴇʀ`, `${usedPrefix}owner`],
 [`💱ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`]
 ], m, {asLocation: false})

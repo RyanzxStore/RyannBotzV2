@@ -11,13 +11,13 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
+• Owner menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'Pilih dibawah kak !'
 const sections = [
    {
 	title: `${htjava} SOUND MENU –––––––––·•`,
@@ -146,9 +146,9 @@ const sections = [
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".donasi"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "ᴅᴏɴᴀꜱɪ", rowId: ".donasi"},
+	{title: "ꜱᴇᴡᴀ ʙᴏᴛ", rowId: ".sewa"},
+	{title: "ʙᴇʟɪ ᴘʀᴇᴍɪᴜᴍ", rowId: ".premium"},
 	]
   },
 ]
@@ -157,7 +157,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *SOUND MENU* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "ᴋʟɪᴋ ᴅɪꜱɪɴɪ !",
   sections
 }
 

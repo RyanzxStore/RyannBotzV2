@@ -20,35 +20,35 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : PutraModz 
-${htjava} *✉️ Nama RL* : PUTRA
-${htjava} *♂️ Gender* : Boys
-${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : PRIVATE
-${htjava} *🧮 Kelas* : PRIVATE
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Jawa Barat, Kuningan 
-${htjava} *❤️ Waifu* : Amelia Putri septiany
+${htjava} *💌 ɴᴀᴍᴀ ʙᴏᴛ* : ʀʏᴀɴ ʙᴏᴛᴢ ᴠ2
+${htjava} *✉️ ɴᴀᴍᴀ ᴏᴡɴᴇʀ* : ʀʏᴀɴ ᴀᴅɪᴛʏᴀ ᴘʀᴀᴛᴀᴍᴀ
+${htjava} *♂️ ɢᴇɴᴅᴇʀ* : ʟᴀᴋɪ ʟᴀᴋɪ
+${htjava} *🕋 ᴀɢᴀᴍᴀ* : ɪsʟᴀᴍ
+${htjava} *⏰ ᴛᴀɴɢɢᴀʟ ʟᴀʜɪʀ* : 12 ᴀɢᴜsᴛᴜs 1997
+${htjava} *🎨 ᴜᴍᴜʀ* :24
+${htjava} *🧮 ᴋᴇʟᴀs* : -
+${htjava} *🧩 ᴘᴇᴋᴇʀᴊᴀᴀɴ* : ɢᴜʀᴜ sᴍᴀ
+${htjava} *💬 sɪғᴀᴛ* : ɴɪʟᴀɪ ᴀᴊᴀ sᴇɴᴅɪʀɪ
+${htjava} *🗺️ ᴛᴇᴍᴘᴀᴛ ᴛɪɴɢɢᴀʟ* : ᴋᴀʟsᴇʟ, ʙᴀɴᴊᴀʀᴍᴀsɪɴ
+${htjava} *❤️ ᴄᴇᴡᴇ* : ᴀʟʏᴀ ᴇʀɪᴛʜᴀ ʀɪᴀɴɴᴀ
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'ᴘɪʟɪʜ ᴅɪʙᴀᴡᴀʜ'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
+	    {title: "ɴᴏᴍᴏʀ ᴏᴡɴᴇʀ", rowId: ".owner nomor"},
+	{title: "ʙɪᴏᴅᴀᴛᴀ ᴏᴡɴᴇʀ", rowId: ".owner bio"},
 	]
     },{
-	title: `${htjava} SUPPORT ME –––––––·•`,
+	title: `${htjava} sᴜᴘᴘᴏʀᴛ ʙᴏᴛ –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".donasi"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "ᴅᴏɴᴀᴛᴇ ғᴏʀ ʙᴏᴛ", rowId: ".donasi"},
+	{title: "sᴇᴡᴀ ʙᴏᴛ", rowId: ".sewa"},
+	{title: "ʙᴇʟɪ ᴘʀᴇᴍɪᴜᴍ", rowId: ".premium"},
 	]
   },
 ]
@@ -57,7 +57,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "ᴄʟɪᴄᴋ ʜᴇʀᴇ !",
   sections
 }
 

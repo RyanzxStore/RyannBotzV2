@@ -4,9 +4,9 @@ let info = `
 `
 const sections = [
    {
-	title: `𝗝𝗢𝗜𝗡 𝗞𝗘 𝗚𝗥𝗨𝗣 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗕𝗢𝗧*\n\n\n━━━〔 Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕━━━`,
+	title: `ᴊᴏɪɴ ᴋᴇ ɢʀᴜᴘ ʙᴏᴛ*\n\n\n━━━〔 ᴊᴏɪɴ ɴᴀᴘᴀ ᴊᴀɴ ᴍᴀᴋᴇ ʙᴏᴛ ᴅᴏᴀɴɢ 〕━━━`,
 	rows: [
-	    {title: '💌 › Group NexBotz', description: "Group Utama putra NexBotz", rowId:".gcbot"}
+	    {title: '💌 › ɢʀᴏᴜᴘ ʀʏᴀɴ ʙᴏᴛᴢ ᴠ2', description: "ɢʀᴜᴘ ᴜᴛᴀᴍᴀ ᴏᴡɴᴇʀ x ʙᴏᴛ", rowId:".gcbot"}
 	    ]
       },
 ]
@@ -15,7 +15,7 @@ const listMessage = {
   text: ' ',
   footer: info,
   title: null,
-  buttonText: "Klik di sini",
+  buttonText: "ᴋʟɪᴋ ᴅɪsɪɴɪ",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
